@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header-main {
+  padding: 12px;
+  background-color: black;
+  color: orange;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+}
+
+.contenedor {
+  height: auto;
+  width: 100%;
+  background-color: coral;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5px;
+  border: 3px solid black;
+}
+
+.item1 {
+  background-color: darkcyan;
+  height: 200px;
+  width: 25%;
+  min-width: 300px;
+  background-image: url(./imagenes/grav.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.item2 {
+  background-color: darkolivegreen;
+  height: 200px;
+  width: 25%;
+  min-width: 300px;
+  background-image: url(./imagenes/fortnite.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.item3 {
+  background-color: lavender;
+  height: 200px;
+  width: 25%;
+  min-width: 300px;
+  background-image: url(./imagenes/warzon.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.item4 {
+  background-color: blueviolet;
+  height: 200px;
+  width: 25%;
+  min-width: 300px;
+  background-image: url(./imagenes/lol.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.item5 {
+  background-color: blueviolet;
+  height: 200px;
+  width: 25%;
+  min-width: 300px;
+  background-image: url(./imagenes/mc.jpeg);
+  background-position: center;
+  background-size: cover;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.item6 {
+  background-color: blueviolet;
+  height: 200px;
+  width: 25%;
+  min-width: 300px;
+  background-image: url(./imagenes/csgo2.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.footer-main {
+  background-color: gray;
+  width: 100%;
+  height: 100px;
+}
+
+.header-main {
+  border: 3px orange solid;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 3px;
+}
+
+a {
+  color: white;
+}
+
+.tituloJuegos h2 {
+  text-align: center;
+  padding: 20px;
+  font-style: bold;
+}
+
+.introduccion p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  text-align: center;
+}
+
+.confuso {
+  padding: 20px;
+  width: 600px;
+  height: 600px;
+}
+
+.confuso {
+  transition: transform 0.3s ease-in-out;
+}
+
+.confuso:hover {
+  transform: scale(0.8);
+}
+
+@media (max-width: 600px) {
+  .item1, .item2, .item3, .item4, .item5, .item6 {
+    width: 100%;
+  }
+  .contenedor {
+    padding: 10px;
+  }
+}
+@media (min-width: 768px) and (orientation: landscape) {
+  body {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    font-size: 24px;
+  }
+}/*# sourceMappingURL=main.css.map */
