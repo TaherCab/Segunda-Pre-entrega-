@@ -113,7 +113,7 @@ ul {
 }
 
 a {
-  color: black;
+  color: white;
 }
 
 .tituloJuegos h2 {
@@ -145,9 +145,21 @@ h3 {
   transform: scale(0.8);
 }
 
-.footerTodos{
-  background-color: gray;
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 @media (max-width: 600px) {
   .item1, .item2, .item3, .item4, .item5, .item6 {
     width: 100%;
