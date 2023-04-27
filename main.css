@@ -22,6 +22,17 @@
   gap: 5px;
 }
 
+.contenedor-Gama-media {
+  height: auto;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5px;
+}
+
 main {
   padding: 10px;
   text-align: center;
@@ -36,10 +47,10 @@ main {
   height: 200px;
   width: 25%;
   min-width: 300px;
-  background-image: url(./imagenes/grav.jpg);
+  background-image: url(./imagenes/mc.jpeg);
   background-position: center;
   background-size: cover;
-  border: 3px solid black;
+  border: 3px solid white;
   border-radius: 10px;
 }
 
@@ -48,10 +59,10 @@ main {
   height: 200px;
   width: 25%;
   min-width: 300px;
-  background-image: url(./imagenes/fortnite.jpg);
+  background-image: url(./imagenes/proyect.jpg);
   background-position: center;
   background-size: cover;
-  border: 3px solid black;
+  border: 3px solid white;
   border-radius: 10px;
 }
 
@@ -60,10 +71,10 @@ main {
   height: 200px;
   width: 25%;
   min-width: 300px;
-  background-image: url(./imagenes/warzon.jpg);
+  background-image: url(./imagenes/muck.jpg);
   background-position: center;
   background-size: cover;
-  border: 3px solid black;
+  border: 3px solid white;
   border-radius: 10px;
 }
 
@@ -75,7 +86,7 @@ main {
   background-image: url(./imagenes/lol.jpg);
   background-position: center;
   background-size: cover;
-  border: 3px solid black;
+  border: 3px solid white;
   border-radius: 10px;
 }
 
@@ -84,10 +95,10 @@ main {
   height: 200px;
   width: 25%;
   min-width: 300px;
-  background-image: url(./imagenes/mc.jpeg);
+  background-image: url(./imagenes/fnaf.jpg);
   background-position: center;
   background-size: cover;
-  border: 3px solid black;
+  border: 3px solid white;
   border-radius: 10px;
 }
 
@@ -96,11 +107,87 @@ main {
   height: 200px;
   width: 25%;
   min-width: 300px;
-  background-image: url(./imagenes/csgo2.jpg);
+  background-image: url(./imagenes/amongus.jpg);
   background-position: center;
   background-size: cover;
-  border: 3px solid black;
+  border: 3px solid white;
   border-radius: 10px;
+}
+
+.item1-M {
+  background-color: darkcyan;
+  height: 200px;
+  width: 25%;
+  min-width: 300px;
+  background-image: url(./imagenes/csgo.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.item2-M {
+  background-color: darkolivegreen;
+  height: 200px;
+  width: 25%;
+  min-width: 300px;
+  background-image: url(./imagenes/cod2.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.item3-M {
+  background-color: lavender;
+  height: 200px;
+  width: 25%;
+  min-width: 300px;
+  background-image: url(./imagenes/grav.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.item4-M {
+  background-color: blueviolet;
+  height: 200px;
+  width: 25%;
+  min-width: 300px;
+  background-image: url(./imagenes/saintsrow.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.item5-M {
+  background-color: blueviolet;
+  height: 200px;
+  width: 25%;
+  min-width: 300px;
+  background-image: url(./imagenes/farcry3.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.item6-M {
+  background-color: blueviolet;
+  height: 200px;
+  width: 25%;
+  min-width: 300px;
+  background-image: url(./imagenes/mkx.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+span {
+  background-color: rgba(51, 51, 51, 0.6235294118);
 }
 
 .footer-main {
